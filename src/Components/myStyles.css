@@ -1,0 +1,247 @@
+.hero-header {
+  font-size: 45px !important;
+  color: #00214d;
+}
+.form-div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 15px;
+  margin-top: 50px;
+  position: relative;
+  bottom: -75px;
+  box-shadow: 0 0 20px 2px silver;
+  border-radius: 4px;
+}
+  .search-button {
+    float: right;
+    background-color: #0B64FD;
+    color: white;
+    border: none !important;
+    border-radius: 4px;
+    min-height: 38px !important;
+    width: 100% !important;
+    padding: 5px 10px;
+    font-size: smaller;
+  }
+  .search-input {
+    width: 100% !important;
+    padding: 6px 10px;
+    border: none !important;
+  }
+  .search-input:focus {
+    border: none !important;
+    color: black;
+    outline: none;
+  }
+  .lower-body-div {
+    padding-top: 100px;
+    background-color: #F1F4F8;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+  }
+  .icon {
+    margin-top: 10.5px !important;
+  }
+  .form-inner-container {
+    padding: 0px 0px 0px 12px !important;
+  }
+  .icon-col {
+    float: left;
+  }
+  .input-col {
+    float: right;
+    min-width: 93% !important;
+  }
+  @media(max-width: 678px) {
+    .search-body-div {
+      padding-left: 5% !important;
+      padding-right: 5% !important;
+    }
+  }
+  @media(max-width: 767px) {
+    .location-col, .search-button {
+      margin-top: 20px !important;
+    }
+    .button-col {
+      padding: 0px !important;
+    }
+    .form-inner-container {
+      padding: 0px 6px 0px 6px !important;
+    }
+    .form-div {
+      margin-top: 0px !important;
+      bottom: -100px !important;
+    }
+    .doc-hosp-col, .location-col {
+      height: 40px !important;
+    }
+  }
+  @media(min-width: 576px) and (max-width: 587px) {
+    .doc-hosp-col, .location-col {
+      padding-right: 0px !important;
+    }
+  }
+  .doc-hosp-col, .location-col {
+    border: 1px solid rgb(223, 217, 217);
+    border-radius: 4px;
+    outline:0.01em solid black;
+  }
+  @media(min-width: 576px) {
+    .doc-hosp-col {
+      margin-left: 0px !important;
+    }
+  }
+  @media(min-width: 768px) {
+    .location-col {
+      max-width: 40.6% !important;
+      margin-left: auto !important;
+    }
+  }
+.search-body-div {
+  padding-top: 100px;
+  background-image: url('./Doctor_Flatline.png');
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 105% 35%;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 50px;
+}
+@media(min-width: 867px) and (max-width: 991px) {
+  .search-body-div {
+    background-size: 45%;
+    background-position: 100% 53% !important;
+  }
+}
+@media(min-width: 768px) and (max-width: 866px) {
+  .search-body-div {
+    background-size: 50%;
+    background-position: 110% -5% !important;
+  }
+}
+@media(min-width: 744px) and (max-width: 767px) {
+  .search-body-div {
+    background-size: 50%;
+    background-position: 105% -105% !important;
+  }
+}
+@media(min-width: 706px) and (max-width: 743px) {
+  .search-body-div {
+    background-size: 55%;
+    background-position: 105% 35% !important;
+  }
+}
+@media(min-width: 667px) and (max-width: 705px) {
+  .search-body-div {
+    background-size: 50%;
+    background-position: 105% 35% !important;
+  }
+}
+@media(min-width: 573px) and (max-width: 666px) {
+  .search-body-div {
+    background-size: 65%;
+    background-position: 120% -30% !important;
+  }
+}
+@media(min-width: 500px) and (max-width: 572px) {
+  .search-body-div {
+    background-size: 70%;
+    background-position: 120% -30% !important;
+  }
+}
+@media(max-width: 499px) {
+  .search-body-div {
+    background-size: 85%;
+    background-position: 135% 35% !important;
+  }
+}
+.navbar {
+  padding: 0px 16px !important;
+  border-bottom: 0.2px solid grey;
+  position: sticky !important;
+  top: 0 !important;
+  background-color: white;
+  z-index: 1000;
+}
+@media(min-width: 992px){
+  .about-nav-link {
+    margin-left: 15%;
+  }
+  .nav-links {
+    margin-left: 24px;
+  }
+}
+.nav-links {
+  color: black;
+  font-size: 15px;
+  text-decoration: none !important;
+  transition: 0.3s ease-in-out;
+  font-weight: 600;
+}
+.nav-links:hover {
+  font-size: 20px !important;
+}
+@media(max-width: 480px) {
+  .navbar {
+    padding: 18px 8px !important;
+  }
+}
+.logo {
+  height: 90px;
+  width: 90px;
+}
+.landing-page-logo {
+  padding: 0px !important;
+}
+.signup-link {
+  color: #0B64FD;
+}
+.login-button {
+  background-color: #eee;
+  border-radius: 10px;
+  color: #000;
+  font-size: 15px;
+  padding: 15px 30px;
+  transition: all .3s ease;
+  text-align: center !important;
+  border: none !important;
+  margin-right: 10px;
+}
+.footer-div {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 50px;
+}
+.active-role-div {
+  background-color: #0B65FF !important;
+  box-shadow: 0 0 20px 2px #05378e !important;
+  color: white;
+}
+.role-div {
+  padding: 20px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px 2px silver;
+  font-size: smaller;
+}
+.roles-container {
+  margin-top: 50px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+@media(max-width: 991px) {
+  .role-div {
+    margin-top: 30px !important;
+  }
+  .roles-container {
+    margin-top: 20px !important;
+  }
+}
+@media(min-width: 992px) and (max-width: 1060px) {
+  .lower-body-div {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+  }
+}
