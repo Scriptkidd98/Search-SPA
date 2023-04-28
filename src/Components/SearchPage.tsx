@@ -47,7 +47,7 @@ const SearchPage: React.FC = () => {
                                         <span><i className="fas fa-search icon"></i></span>
                                     </div>
                                     <div className="input-col">
-                                        <input name='name' id='name' type='text' placeholder="Doctor or Clinic" className='search-input' onChange={(event) => setName(event.target.value)}></input>
+                                        <input name='name' id='name' type='text' placeholder="Doctor or Clinic" className='search-input' onChange={(event) => setName(event.target.value)} required></input>
                                     </div>
                                 </div>
                             </Col>
@@ -57,7 +57,7 @@ const SearchPage: React.FC = () => {
                                         <span><i className="fas fa-map-marker-alt icon"></i></span>
                                     </div>
                                     <div className="input-col">
-                                        <input name='location' id='location' type='text' placeholder="Bucharest, Romania" className='search-input' onChange={(event) => setLocation(event.target.value)}></input>
+                                        <input name='location' id='location' type='text' placeholder="Bucharest, Romania" className='search-input' onChange={(event) => setLocation(event.target.value)} required></input>
                                     </div>
                                 </div>
                             </Col>
